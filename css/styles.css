@@ -1,0 +1,499 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#header {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(255, 215, 39);
+}
+
+
+.logo img {
+    width: 170px;
+    height: auto;
+}
+
+.villa-belgrano {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 20px;
+}
+
+.villa-belgrano p {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(255, 215, 39);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    padding: 15px;
+    transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: rgb(28, 21, 107);
+    color: rgb(255, 215, 39);
+}
+
+
+
+/*contenedor*/
+.contenedor-imagen {
+    background-image: url('/Carrera_Analista/1°/EDI/rotary villa belgrano/img/pexels-nurseryart-346885.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-imagen p{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    padding: 40px;
+    font-size: large;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/*ubicación*/
+.ubicacion{
+    width: 70%;
+    background-color: rgb(28, 21, 107);
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.ubicacion h2{
+    text-align: center;
+    color: rgb(255, 215, 39);
+}
+.ubicacion p{
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+}
+
+/*novedades*/
+.novedades {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+
+}
+.novedades .title{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    color:rgb(28, 21, 107);
+}
+.novedades .card {
+    display: inline-block;
+    height: 300px;
+    margin: 10px;
+    background-color: rgb(28, 21, 107);
+    width: 16%;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 30px;
+}
+
+.card .card-content h2{
+    color: rgb(255, 215, 39);
+    padding-top: 80px;
+}
+
+.card .card-content a{
+   text-decoration: none;
+   color: rgb(174, 255, 248);
+}
+
+
+/*footer*/
+#footer{
+    height: 250px;
+    background-color: rgb(255, 215, 39);
+    margin: 0 auto;
+    overflow: hidden;
+}
+#footer > div{
+    display: block;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.copyright{
+    color: rgb(10, 7, 48);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-container .redes-sociales{
+    text-align: center;
+    padding-top: 30px;
+}
+.redes-sociales h2{
+    color: rgb(10, 7, 48);
+}
+.redes-sociales li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    justify-content: center;
+}
+.redes-sociales li a i{
+    font-size: 25px;
+    color: rgb(28, 21, 107);
+}
+
+
+/* novedades */
+.novedad1{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+.novedad1 .container h2{
+    color: rgb(28, 21, 107) ;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        width: 100% !important;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    /*header*/
+    #header {
+        display: block;
+        text-align: center;
+    }
+    #header .logo {
+        margin: 0 auto;
+    }
+
+    /*navnar*/
+    .menu {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: -10px;
+    }
+
+    #header .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #header .menu ul li {
+        list-style-type: none;
+    }
+
+    /*.contenedor-imagen*/
+    .contenedor-imagen p{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin-top: -30px;
+    }
+
+    /*main*/
+    /*novedades*/
+    .novedades {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 20px;
+
+    }
+    .novedades .title{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color:rgb(28, 21, 107);
+    }
+    .novedades .card {
+        display: block;
+        height: 350px;
+        background-color: rgb(28, 21, 107);
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card-content{
+        padding: 20px;
+    }
+
+    .card .card-content h2{
+        color: rgb(255, 215, 39);
+        align-items: center;
+    }
+
+    .card .card-content a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(174, 255, 248);
+    }
+
+    
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    body {
+        margin: 0;
+        width: 100% !important;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    /*header*/
+    #header {
+        display: block;
+        text-align: center;
+    }
+    #header .logo {
+        margin: 0 auto;
+    }
+
+    /*navnar*/
+    .menu {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: -10px;
+    }
+
+    #header .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #header .menu ul li {
+        list-style-type: none;
+    }
+
+    /*.contenedor-imagen*/
+    .contenedor-imagen p{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin-top: -30px;
+    }
+    /*ubicación*/
+    .ubicacion{
+        width: 70%;
+        background-color: rgb(28, 21, 107);
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .ubicacion h2{
+        text-align: center;
+        color: rgb(255, 215, 39);
+    }
+    .ubicacion p{
+        text-align: justify;
+        color: white;
+        line-height: 1.5;
+    }
+
+    /*main*/
+    /*novedades*/
+    .novedades {
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 20px;
+
+    }
+    .novedades .title{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color:rgb(28, 21, 107);
+    }
+    .novedades .card {
+        display: block;
+        height: 350px;
+        background-color: rgb(28, 21, 107);
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .card-content{
+        padding: 20px;
+    }
+
+    .card .card-content h2{
+        color: rgb(255, 215, 39);
+        align-items: center;
+    }
+
+    .card .card-content a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(174, 255, 248);
+    }    }  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        margin: 0;
+        width: 100% !important;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    /* Header */
+    #header {
+        display: block;
+        text-align: center;
+    }
+
+    #header .logo {
+        margin: 0 auto;
+    }
+
+    /* Navbar */
+    .menu {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: -10px;
+    }
+
+    #header .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #header .menu ul li {
+        list-style-type: none;
+    }
+
+    /* Contenedor de imagen */
+    .contenedor-imagen p {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin-top: -30px;
+    }
+
+    /* Ubicación */
+    .ubicacion {
+        width: 60%;
+        background-color: rgb(28, 21, 107);
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .ubicacion h2 {
+        text-align: center;
+        color: rgb(255, 215, 39);
+    }
+
+    .ubicacion p {
+        text-align: justify;
+        color: white;
+        line-height: 1.5;
+    }
+
+    /* Main */
+    /* Novedades */
+    .novedades {
+        margin: 0 auto;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    .novedades .title {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: rgb(28, 21, 107);
+        text-align: center;
+    }
+
+    .novedades .card {
+        height: 350px;
+        background-color: rgb(28, 21, 107);
+        padding: 20px;
+        width: calc(50% - 100px);
+        margin-bottom: 20px;
+    }
+
+    .novedades .card-content h2 {
+        color: rgb(255, 215, 39);
+        text-align: center;
+    }
+
+    .novedades .card-content a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(174, 255, 248);
+        margin-top: 20px;
+    }
+}
