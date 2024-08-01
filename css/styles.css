@@ -390,7 +390,39 @@ html {
     text-decoration: none;
     align-items: center;
     color: rgb(174, 255, 248);
-    }    }  
+    }   
+ }  
+}
+
+/*HISTORIA*/
+.historia .container-historia{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-historia h1{
+    color: rgb(42, 37, 109);
+    margin: 50px 0 40px 0;
+    text-align: center;
+}
+
+.container-historia > div{
+    border: 2px solid rgb(255, 215, 39);
+    background-color: rgb(42, 37, 109);
+    margin: 35px;
+    padding: 40px;
+}
+
+.container-historia > div h2{
+    text-align: center;
+    color: rgb(255, 215, 39);
+}
+
+.container-historia > div p{
+    color: whitesmoke;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
