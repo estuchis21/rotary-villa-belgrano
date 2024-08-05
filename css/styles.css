@@ -112,73 +112,42 @@ html {
 /*novedades*/
 .novedades {
     margin: 0 auto;
-    text-align: center;
     width: 80%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 .novedades .title{
     display: block;
-    margin-top: 10px;
-    margin-bottom: 30px;
     text-align: center;
-    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
     color:rgb(28, 21, 107);
 }
 .novedades .card {
-    display: inline-flex;
-    height: 400px;
-    margin: 10px;
-    flex-wrap: wrap;
+    display: block;
+    height:300px;
     background-color: rgb(28, 21, 107);
-    width: 15%;
-    margin-bottom: 10px;
-    padding: 80px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.card-content{
+    padding: 60px;
 }
 
 .card .card-content h2{
     color: rgb(255, 215, 39);
-    padding: 10px;
     text-align: justify;
 }
 
 .card .card-content a{
-   text-decoration: none;
-   color: rgb(174, 255, 248);
+text-decoration: none;
+justify-content: center;
+color: rgb(174, 255, 248);
 }
-
-
-/*HISTORIA*/
-.historia .container-historia{
-    display: block;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.container-historia h1{
-    color: rgb(42, 37, 109);
-    margin: 50px 0 40px 0;
-    text-align: center;
-}
-
-.container-historia > div{
-    border: 2px solid rgb(255, 215, 39);
-    background-color: rgb(28, 21, 107);
-    margin: 35px;
-    padding: 80px;
-}
-
-.container-historia > div h2{
-    text-align: center;
-    color: rgb(255, 215, 39);
-}
-
-.container-historia > div p{
-    color: whitesmoke;
-    line-height: 1.5;
-    text-align: justify;
-}
-
 
 /*footer*/
 #footer{
@@ -195,7 +164,7 @@ html {
 .copyright{
     color: rgb(10, 7, 48);
     text-align: center;
-    padding-bottom: 5px;
+    margin-bottom: 50px;
 }
 .footer-container .redes-sociales{
     text-align: center;
@@ -207,12 +176,11 @@ html {
 .redes-sociales li{
     list-style: none;
     display: inline-block;
-    text-align: center;
+    padding: 20px;
+    justify-content: center;
 }
 .redes-sociales li a i{
     font-size: 25px;
-    padding: 20px;
-    text-align: center;
     color: rgb(28, 21, 107);
 }
 
@@ -231,10 +199,39 @@ html {
 .novedad1 .container h2{
     color: rgb(28, 21, 107) ;
 }
-
 .novedad1 .container p{
-    line-height: 1.5;
     text-align: justify;
+}
+
+/*historia*/
+.historia .container-historia{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.container-historia > div{
+    border: 2px solid rgb(255, 215, 39);
+    background-color: rgb(28, 21, 107);
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.container-historia h1 {
+    color: rgb(10, 7, 48);
+}
+
+.container-historia > div h2{
+    color: rgb(255, 215, 39);
+    padding: 20px;
+}
+
+.container-historia > div p{
+    text-align: justify;
+    color: wheat;
+    padding-bottom: 20px;
+    line-height: 1.5;
 }
 
 
@@ -285,7 +282,6 @@ html {
         margin-top: -30px;
     }
 
-    /*main*/
     /*novedades*/
     .novedades {
         margin: 0 auto;
@@ -295,105 +291,89 @@ html {
     }
     .novedades .title{
         display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
         color:rgb(28, 21, 107);
     }
     .novedades .card {
         display: block;
-        height: 350px;
+        height: 400px;
         background-color: rgb(28, 21, 107);
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        padding: 20px;
+        padding: 25px;
     }
 
     .card-content{
-        padding: 20px;
+        padding: 10px;
     }
 
     .card .card-content h2{
         color: rgb(255, 215, 39);
-        align-items: center;
+        text-align: justify;
+        padding-top: 80px;
     }
 
     .card .card-content a{
     text-decoration: none;
-    align-items: center;
+    justify-content: center;
     color: rgb(174, 255, 248);
     }
 
-    /*HISTORIA*/
-    .historia .container-historia{
-        display: block;
-        width: 95%;
+    /* novedades */
+    .novedad1{
+        width: 70%;
         margin: 0 auto;
+        line-height: 1.5;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 2px solid blue;
+        padding: 50px;
     }
 
-    .container-historia h1{
-        color: rgb(42, 37, 109);
-        padding: 10px;
+    .novedad1 .container h2{
+        color: rgb(28, 21, 107) ;
+    }
+    .novedad1 .container p{
         text-align: justify;
+    }
+
+    /*historia*/
+    .historia .container-historia{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+
     }
 
     .container-historia > div{
         border: 2px solid rgb(255, 215, 39);
         background-color: rgb(28, 21, 107);
-        margin: 35px;
-        padding: 45px;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .container-historia h1 {
+        color: rgb(10, 7, 48);
     }
 
     .container-historia > div h2{
-        text-align: justify;
         color: rgb(255, 215, 39);
+        padding: 20px;
     }
 
     .container-historia > div p{
-        color: whitesmoke;
-        line-height: 1.5;
         text-align: justify;
+        color: wheat;
+        padding-bottom: 20px;
+        line-height: 1.5;
     }
-
-    /*footer*/
-    #footer{
-        height: 250px;
-        background-color: rgb(255, 215, 39);
-        margin: 0 auto;
-        overflow: hidden;
-    }
-    #footer > div{
-        display: block;
-        margin: 0 auto;
-        overflow-x: hidden;
-    }
-    .copyright{
-        color: rgb(10, 7, 48);
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    .footer-container .redes-sociales{
-        text-align: center;
-        padding-top: 30px;
-    }
-    .redes-sociales h2{
-        color: rgb(10, 7, 48);
-    }
-    .redes-sociales li{
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .redes-sociales li a i{
-        font-size: 25px;
-        padding: 20px;
-        text-align: center;
-        color: rgb(28, 21, 107);
-    }
-
-}
     
+
+}  
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
     body {
@@ -440,8 +420,25 @@ html {
         width: 80%;
         margin-top: -30px;
     }
+    /*ubicación*/
+    .ubicacion{
+        width: 70%;
+        background-color: rgb(28, 21, 107);
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
 
-    /*main*/
+    .ubicacion h2{
+        text-align: center;
+        color: rgb(255, 215, 39);
+    }
+    .ubicacion p{
+        text-align: justify;
+        color: white;
+        line-height: 1.5;
+    }
+
     /*novedades*/
     .novedades {
         margin: 0 auto;
@@ -451,104 +448,89 @@ html {
     }
     .novedades .title{
         display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
         color:rgb(28, 21, 107);
     }
     .novedades .card {
         display: block;
-        height: 350px;
+        height: 400px;
         background-color: rgb(28, 21, 107);
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        padding: 20px;
+        padding: 25px;
     }
 
     .card-content{
-        padding: 20px;
+        padding: 10px;
     }
 
     .card .card-content h2{
         color: rgb(255, 215, 39);
-        align-items: center;
+        text-align: justify;
+        padding-top: 80px;
     }
 
     .card .card-content a{
     text-decoration: none;
-    align-items: center;
+    justify-content: center;
     color: rgb(174, 255, 248);
-    }
+    }    
 
-    /*HISTORIA*/
-    .historia .container-historia{
-        display: block;
-        width: 95%;
+    /* novedades */
+    .novedad1{
+        width: 70%;
         margin: 0 auto;
+        line-height: 1.5;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 2px solid blue;
+        padding: 50px;
     }
 
-    .container-historia h1{
-        color: rgb(42, 37, 109);
-        padding: 10px;
+    .novedad1 .container h2{
+        color: rgb(28, 21, 107) ;
+    }
+    .novedad1 .container p{
         text-align: justify;
+    }
+
+    /*historia*/
+    .historia .container-historia{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+
     }
 
     .container-historia > div{
         border: 2px solid rgb(255, 215, 39);
         background-color: rgb(28, 21, 107);
-        margin: 35px;
-        padding: 45px;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .container-historia h1 {
+        color: rgb(10, 7, 48);
     }
 
     .container-historia > div h2{
-        text-align: justify;
         color: rgb(255, 215, 39);
+        padding: 20px;
     }
 
     .container-historia > div p{
-        color: whitesmoke;
-        line-height: 1.5;
         text-align: justify;
+        color: wheat;
+        padding-bottom: 20px;
+        line-height: 1.5;
     }
+    
+}  
 
-    /*footer*/
-    #footer{
-        height: 250px;
-        background-color: rgb(255, 215, 39);
-        margin: 0 auto;
-        overflow: hidden;
-    }
-    #footer > div{
-        display: block;
-        margin: 0 auto;
-        overflow-x: hidden;
-    }
-    .copyright{
-        color: rgb(10, 7, 48);
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    .footer-container .redes-sociales{
-        text-align: center;
-        padding-top: 30px;
-    }
-    .redes-sociales h2{
-        color: rgb(10, 7, 48);
-    }
-    .redes-sociales li{
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .redes-sociales li a i{
-        font-size: 25px;
-        padding: 20px;
-        text-align: center;
-        color: rgb(28, 21, 107);
-    }
-
-}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     body {
@@ -556,20 +538,21 @@ html {
         width: 100% !important;
     }
 
-    html{
+    html {
         overflow-x: hidden;
     }
 
-    /*header*/
+    /* Header */
     #header {
         display: block;
         text-align: center;
     }
+
     #header .logo {
         margin: 0 auto;
     }
 
-    /*navnar*/
+    /* Navbar */
     .menu {
         margin: 0 auto;
         width: 100%;
@@ -588,15 +571,34 @@ html {
         list-style-type: none;
     }
 
-    /*.contenedor-imagen*/
-    .contenedor-imagen p{
+    /* Contenedor de imagen */
+    .contenedor-imagen p {
         margin: 0 auto;
         text-align: center;
         width: 80%;
         margin-top: -30px;
     }
 
-    /*main*/
+    /* Ubicación */
+    .ubicacion {
+        width: 60%;
+        background-color: rgb(28, 21, 107);
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .ubicacion h2 {
+        text-align: center;
+        color: rgb(255, 215, 39);
+    }
+
+    .ubicacion p {
+        text-align: justify;
+        color: white;
+        line-height: 1.5;
+    }
+
     /*novedades*/
     .novedades {
         margin: 0 auto;
@@ -606,100 +608,85 @@ html {
     }
     .novedades .title{
         display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
         color:rgb(28, 21, 107);
     }
     .novedades .card {
         display: block;
-        height: 350px;
+        height: 400px;
         background-color: rgb(28, 21, 107);
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        padding: 20px;
+        padding: 25px;
     }
 
     .card-content{
-        padding: 20px;
+        padding: 10px;
     }
 
     .card .card-content h2{
         color: rgb(255, 215, 39);
-        align-items: center;
+        text-align: justify;
+        padding-top: 80px;
     }
 
     .card .card-content a{
     text-decoration: none;
-    align-items: center;
+    justify-content: center;
     color: rgb(174, 255, 248);
     }
 
-    /*HISTORIA*/
-    .historia .container-historia{
-        display: block;
-        width: 95%;
+    /* novedades */
+    .novedad1{
+        width: 70%;
         margin: 0 auto;
+        line-height: 1.5;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 2px solid blue;
+        padding: 50px;
     }
 
-    .container-historia h1{
-        color: rgb(42, 37, 109);
-        padding: 10px;
+    .novedad1 .container h2{
+        color: rgb(28, 21, 107) ;
+    }
+    .novedad1 .container p{
         text-align: justify;
+    }
+
+    /*historia*/
+    .historia .container-historia{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+
     }
 
     .container-historia > div{
         border: 2px solid rgb(255, 215, 39);
         background-color: rgb(28, 21, 107);
-        margin: 35px;
-        padding: 45px;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .container-historia h1 {
+        color: rgb(10, 7, 48);
     }
 
     .container-historia > div h2{
-        text-align: justify;
         color: rgb(255, 215, 39);
+        padding: 20px;
     }
 
     .container-historia > div p{
-        color: whitesmoke;
-        line-height: 1.5;
         text-align: justify;
+        color: wheat;
+        padding-bottom: 20px;
+        line-height: 1.5;
     }
-    /*footer*/
-    #footer{
-        height: 250px;
-        background-color: rgb(255, 215, 39);
-        margin: 0 auto;
-        overflow: hidden;
-    }
-    #footer > div{
-        display: block;
-        margin: 0 auto;
-        overflow-x: hidden;
-    }
-    .copyright{
-        color: rgb(10, 7, 48);
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    .footer-container .redes-sociales{
-        text-align: center;
-        padding-top: 30px;
-    }
-    .redes-sociales h2{
-        color: rgb(10, 7, 48);
-    }
-    .redes-sociales li{
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .redes-sociales li a i{
-        font-size: 25px;
-        padding: 20px;
-        text-align: center;
-        color: rgb(28, 21, 107);
-    }
-
+    
 }
