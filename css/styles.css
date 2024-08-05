@@ -119,26 +119,27 @@ html {
 }
 .novedades .title{
     display: block;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
     align-items: center;
     color:rgb(28, 21, 107);
 }
 .novedades .card {
-    display: inline-block;
-    height: 300px;
+    display: inline-flex;
+    height: 400px;
     margin: 10px;
+    flex-wrap: wrap;
     background-color: rgb(28, 21, 107);
-    width: 16%;
+    width: 15%;
     margin-bottom: 10px;
-    align-items: center;
-    padding: 30px;
+    padding: 80px;
 }
 
 .card .card-content h2{
     color: rgb(255, 215, 39);
-    padding-top: 80px;
+    padding: 10px;
+    text-align: justify;
 }
 
 .card .card-content a{
@@ -150,7 +151,7 @@ html {
 /*HISTORIA*/
 .historia .container-historia{
     display: block;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -164,7 +165,7 @@ html {
     border: 2px solid rgb(255, 215, 39);
     background-color: rgb(28, 21, 107);
     margin: 35px;
-    padding: 40px;
+    padding: 80px;
 }
 
 .container-historia > div h2{
@@ -194,7 +195,7 @@ html {
 .copyright{
     color: rgb(10, 7, 48);
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 5px;
 }
 .footer-container .redes-sociales{
     text-align: center;
@@ -206,11 +207,12 @@ html {
 .redes-sociales li{
     list-style: none;
     display: inline-block;
-    padding: 20px;
-    justify-content: center;
+    text-align: center;
 }
 .redes-sociales li a i{
     font-size: 25px;
+    padding: 20px;
+    text-align: center;
     color: rgb(28, 21, 107);
 }
 
@@ -228,6 +230,11 @@ html {
 
 .novedad1 .container h2{
     color: rgb(28, 21, 107) ;
+}
+
+.novedad1 .container p{
+    line-height: 1.5;
+    text-align: justify;
 }
 
 
@@ -318,6 +325,74 @@ html {
     color: rgb(174, 255, 248);
     }
 
+    /*HISTORIA*/
+    .historia .container-historia{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container-historia h1{
+        color: rgb(42, 37, 109);
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .container-historia > div{
+        border: 2px solid rgb(255, 215, 39);
+        background-color: rgb(28, 21, 107);
+        margin: 35px;
+        padding: 45px;
+    }
+
+    .container-historia > div h2{
+        text-align: justify;
+        color: rgb(255, 215, 39);
+    }
+
+    .container-historia > div p{
+        color: whitesmoke;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    /*footer*/
+    #footer{
+        height: 250px;
+        background-color: rgb(255, 215, 39);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #footer > div{
+        display: block;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .copyright{
+        color: rgb(10, 7, 48);
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .footer-container .redes-sociales{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .redes-sociales h2{
+        color: rgb(10, 7, 48);
+    }
+    .redes-sociales li{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+    }
+    .redes-sociales li a i{
+        font-size: 25px;
+        padding: 20px;
+        text-align: center;
+        color: rgb(28, 21, 107);
+    }
+
+}
     
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
@@ -365,30 +440,12 @@ html {
         width: 80%;
         margin-top: -30px;
     }
-    /*ubicación*/
-    .ubicacion{
-        width: 70%;
-        background-color: rgb(28, 21, 107);
-        padding: 15px;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-
-    .ubicacion h2{
-        text-align: center;
-        color: rgb(255, 215, 39);
-    }
-    .ubicacion p{
-        text-align: justify;
-        color: white;
-        line-height: 1.5;
-    }
 
     /*main*/
     /*novedades*/
     .novedades {
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
         margin-bottom: 20px;
 
     }
@@ -402,7 +459,7 @@ html {
         display: block;
         height: 350px;
         background-color: rgb(28, 21, 107);
-        width: 65%;
+        width: 70%;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -422,8 +479,75 @@ html {
     text-decoration: none;
     align-items: center;
     color: rgb(174, 255, 248);
-    }   
- }  
+    }
+
+    /*HISTORIA*/
+    .historia .container-historia{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container-historia h1{
+        color: rgb(42, 37, 109);
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .container-historia > div{
+        border: 2px solid rgb(255, 215, 39);
+        background-color: rgb(28, 21, 107);
+        margin: 35px;
+        padding: 45px;
+    }
+
+    .container-historia > div h2{
+        text-align: justify;
+        color: rgb(255, 215, 39);
+    }
+
+    .container-historia > div p{
+        color: whitesmoke;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    /*footer*/
+    #footer{
+        height: 250px;
+        background-color: rgb(255, 215, 39);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #footer > div{
+        display: block;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .copyright{
+        color: rgb(10, 7, 48);
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .footer-container .redes-sociales{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .redes-sociales h2{
+        color: rgb(10, 7, 48);
+    }
+    .redes-sociales li{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+    }
+    .redes-sociales li a i{
+        font-size: 25px;
+        padding: 20px;
+        text-align: center;
+        color: rgb(28, 21, 107);
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -432,21 +556,20 @@ html {
         width: 100% !important;
     }
 
-    html {
+    html{
         overflow-x: hidden;
     }
 
-    /* Header */
+    /*header*/
     #header {
         display: block;
         text-align: center;
     }
-
     #header .logo {
         margin: 0 auto;
     }
 
-    /* Navbar */
+    /*navnar*/
     .menu {
         margin: 0 auto;
         width: 100%;
@@ -465,68 +588,118 @@ html {
         list-style-type: none;
     }
 
-    /* Contenedor de imagen */
-    .contenedor-imagen p {
+    /*.contenedor-imagen*/
+    .contenedor-imagen p{
         margin: 0 auto;
         text-align: center;
         width: 80%;
         margin-top: -30px;
     }
 
-    /* Ubicación */
-    .ubicacion {
-        width: 60%;
-        background-color: rgb(28, 21, 107);
-        padding: 15px;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-
-    .ubicacion h2 {
-        text-align: center;
-        color: rgb(255, 215, 39);
-    }
-
-    .ubicacion p {
-        text-align: justify;
-        color: white;
-        line-height: 1.5;
-    }
-
-    /* Main */
-    /* Novedades */
+    /*main*/
+    /*novedades*/
     .novedades {
         margin: 0 auto;
-        width: 75%;
+        width: 80%;
         margin-bottom: 20px;
-    }
 
-    .novedades .title {
+    }
+    .novedades .title{
         display: block;
         margin-top: 30px;
         margin-bottom: 30px;
-        color: rgb(28, 21, 107);
-        text-align: center;
+        color:rgb(28, 21, 107);
     }
-
     .novedades .card {
+        display: block;
         height: 350px;
         background-color: rgb(28, 21, 107);
-        padding: 20px;
-        width: calc(50% - 100px);
-        margin-bottom: 20px;
-    }
-
-    .novedades .card-content h2 {
-        color: rgb(255, 215, 39);
-        text-align: center;
-    }
-
-    .novedades .card-content a {
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        color: rgb(174, 255, 248);
+        width: 70%;
+        margin: 0 auto;
         margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
     }
+
+    .card-content{
+        padding: 20px;
+    }
+
+    .card .card-content h2{
+        color: rgb(255, 215, 39);
+        align-items: center;
+    }
+
+    .card .card-content a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(174, 255, 248);
+    }
+
+    /*HISTORIA*/
+    .historia .container-historia{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container-historia h1{
+        color: rgb(42, 37, 109);
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .container-historia > div{
+        border: 2px solid rgb(255, 215, 39);
+        background-color: rgb(28, 21, 107);
+        margin: 35px;
+        padding: 45px;
+    }
+
+    .container-historia > div h2{
+        text-align: justify;
+        color: rgb(255, 215, 39);
+    }
+
+    .container-historia > div p{
+        color: whitesmoke;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    /*footer*/
+    #footer{
+        height: 250px;
+        background-color: rgb(255, 215, 39);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #footer > div{
+        display: block;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .copyright{
+        color: rgb(10, 7, 48);
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .footer-container .redes-sociales{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .redes-sociales h2{
+        color: rgb(10, 7, 48);
+    }
+    .redes-sociales li{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+    }
+    .redes-sociales li a i{
+        font-size: 25px;
+        padding: 20px;
+        text-align: center;
+        color: rgb(28, 21, 107);
+    }
+
 }
